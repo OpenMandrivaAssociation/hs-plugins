@@ -1,5 +1,4 @@
 %define hs_package hs-plugins
-%define ghc_version %(rpm -q ghc | cut -d- -f2)
 
 Summary:	A library for loading code written in Haskell into an application at runtime
 Name:		%{hs_package}
@@ -10,9 +9,9 @@ License: 	LGPL
 Group:		Development/Other
 Url: 		http://www.cse.unsw.edu.au/~dons/hs-plugins/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Buildrequires:	ghc = %{ghc_version}
+Buildrequires:	ghc
 Buildrequires:	haskell-src-exts
-Requires:	ghc = %{ghc_version}
+Requires:	ghc
 
 %description
 hs-plugins is a library for loading code written in Haskell into an application
