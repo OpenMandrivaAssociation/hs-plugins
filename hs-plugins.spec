@@ -8,6 +8,7 @@ Source0: 	ftp://ftp.cse.unsw.edu.au/pub/users/dons/hs-plugins/%{hs_package}.tar.
 License: 	LGPL
 Group:		Development/Other
 Url: 		http://www.cse.unsw.edu.au/~dons/hs-plugins/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildrequires:	ghc
 Buildrequires:	haskell-src-exts
 Requires:	ghc
