@@ -3,7 +3,7 @@
 Summary:	A library for loading code written in Haskell into an application at runtime
 Name:		%{hs_package}
 Version: 	0.9.11
-Release: 	%mkrel 0.20051120.2
+Release: 	%mkrel 0.20051120.3
 Source0: 	ftp://ftp.cse.unsw.edu.au/pub/users/dons/hs-plugins/%{hs_package}.tar.gz
 License: 	LGPL
 Group:		Development/Other
