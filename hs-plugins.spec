@@ -7,7 +7,7 @@ Release: 	%mkrel 0.20051120.3
 Source0: 	ftp://ftp.cse.unsw.edu.au/pub/users/dons/hs-plugins/%{hs_package}.tar.gz
 License: 	LGPL
 Group:		Development/Other
-Url: 		http://www.cse.unsw.edu.au/~dons/hs-plugins/
+Url: 		https://www.cse.unsw.edu.au/~dons/hs-plugins/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildrequires:	ghc
 Buildrequires:	haskell-src-exts
